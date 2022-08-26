@@ -1,0 +1,49 @@
+@font-face {
+    font-family: SpaceGrotesk-Regular;
+    src: url('../font/SpaceGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: SpaceGrotesk-Medium;
+    src: url('../font/SpaceGrotesk-Medium.ttf');
+}
+
+@font-face {
+    font-family: SpaceGrotesk-SemiBold;
+    src: url('../font/SpaceGrotesk-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: SpaceGrotesk-Bold;
+    src: url('../font/SpaceGrotesk-Bold.ttf');
+}
+
+.org-font-regular{
+    font-family: SpaceGrotesk-Regular;
+}
+
+.org-font-medium{
+    font-family: SpaceGrotesk-Medium;
+}
+
+.org-font-semibold{
+    font-family: SpaceGrotesk-SemiBold;
+}
+
+.org-font-bold{
+    font-family: SpaceGrotesk-Bold;
+}
+
+body{
+    font-family: SpaceGrotesk-Regular;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: SpaceGrotesk-SemiBold;
+}
+.carousel-indicators [data-bs-target] {
+    width: 21px !important;
+    height: 0px !important;
+    background-color: #000 !important;
+    background-clip: border-box !important;
+}
